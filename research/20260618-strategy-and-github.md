@@ -7,12 +7,15 @@
 - Located the dedicated research repo (`from-agile-to-agentic`) for documenting this journey, separate from the code repos.
 - Filled in the "Beginning & Safety Net" research journal entry — wrote the factual sections myself, asked for reflections on the rest one question at a time.
 - Committed and pushed that entry to GitHub.
+- Set up this repo as a deliberate source of memory/context: saved a reference memory (in Claude's own cross-session store) pointing at it, describing its purpose, structure, and the rule that the three reflective sections are always elicited from Christian, never invented.
+- Drafted and committed `CLAUDE.md` into the repo itself, so the same conventions are visible, versioned, and apply automatically to any future session working here — not just dependent on Claude's private memory surviving.
 
 ## Technical Learnings
 
 - Locked in a naming convention for content artifacts (post + image prompt as separate files, date+phase prefixed) so the series stays consistent without re-deciding structure each time.
 - Separating what stays fixed (the visual style) from what changes (the scene per entry) is the same kind of design discipline as keeping a test fixture stable while the scenario it exercises evolves.
 - The research journal has a built-in separation between what can be drafted by the agent (facts, technical learnings) and what only the human can write (organizational learnings, leadership perspective, open questions) — documentation can't all be delegated.
+- Two layers of "memory" turned out to be complementary, not redundant: a private agent memory (automatic, but invisible and non-portable) and a git-tracked `CLAUDE.md` (visible, versioned, portable across machines and sessions) each cover a gap the other leaves open.
 
 ## Organizational Learnings
 
