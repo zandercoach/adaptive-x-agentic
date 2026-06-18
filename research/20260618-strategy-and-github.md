@@ -1,4 +1,4 @@
-# Strategy and Github
+# 20260618 - Strategy and Github
 
 ## What I did
 
