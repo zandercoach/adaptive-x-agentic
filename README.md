@@ -107,6 +107,10 @@ It is intended to document questions, experiments and observations.
 
 The goal is to understand what it takes for a business model, a leadership model, and an operating model to become adaptive enough to benefit from the agentic disruption.
 
+- [20260617 - Beginning & Safety Net](research/20260617-beginning.md)
+- [20260618 - Strategy and Github](research/20260618-strategy-and-github.md)
+- [20260622 - Rename and Reframe](research/20260622-rename-and-reframe.md)
+
 ## Status
 
 The journey has just begun.
