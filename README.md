@@ -32,12 +32,12 @@ It is a perfect learning environment.
 
 And... it consists of two separate repositories
 
-- coach.zander.cfk - A public repository containing the engine itself, so all the code.
-- coach.zander.cfk.data - A private repository containing all the data, images and other resources.
+- chronicler-engine - A public repository containing the engine itself, so all the code.
+- chronicler-data-cfk - A private repository containing all the data, images and other resources.
 
-### Public engine repository: coach.zander.cfk
+### Public engine repository: chronicler-engine
 
-Engine to create a static RPG journey website based on speific data provided in the given XML format (for now).
+Engine to create a static RPG journey website based on specific data provided in the given XML format (for now).
 
 - Java, XML, Velocity Templates
 - css, js
@@ -45,7 +45,7 @@ Engine to create a static RPG journey website based on speific data provided in 
 - ~5000 LOC
 - Legacy code base
 
-### Private data repository: coach.zander.cfk.data
+### Private data repository: chronicler-data-cfk
 
 One specific journey of one group of RPG players of "Das Schwarze Auge" - "Die Chroniken des Fliegenden Kessels". Private for copyright reasons (for now).
 
@@ -111,6 +111,7 @@ The goal is to understand what it takes for a business model, a leadership model
 - [20260618 - Strategy and Github](research/20260618-strategy-and-github.md)
 - [20260622 - Rename and Reframe](research/20260622-rename-and-reframe.md)
 - [20260623 - Publish Before Refactor](research/20260623-publish-before-refactor.md)
+- [20260624 - Eclipse Renames and Cleanup](research/20260624-eclipse-renames-and-cleanup.md)
 
 ## Status
 
