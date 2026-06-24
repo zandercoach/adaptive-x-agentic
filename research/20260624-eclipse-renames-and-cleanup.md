@@ -15,6 +15,8 @@
 
 ## Organizational Learnings
 
+- I did learn that an AI agent can make mistakes as humans do.
+
 ## Leadership Perspective
 
 ## Other Learnings
