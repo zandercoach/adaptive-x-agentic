@@ -1,0 +1,10 @@
+IMAGE STYLE GUIDE ("Kessel Chronicle Ink" — reuse for every future post)
+=========================================================================
+
+Black-and-white pen-and-ink illustration, fantasy RPG chronicle/bestiary tome style. High-contrast linework, dense crosshatching for shadow and texture, pure ink on aged parchment — no color, no grayscale gradients. Hand-drawn imperfection, not vector-clean. Square composition with a thin decorative border, like a page from an old adventurer's chronicle.
+
+
+FIRST IMAGE PROMPT ("the beginning of the journey")
+=====================================================
+
+Black-and-white pen-and-ink woodcut illustration, fantasy RPG chronicle tome style, heavy crosshatching, aged parchment texture, decorative border. A hooded scribe sits at a wooden desk, quill in hand, writing in a massive leather-bound book. Beside the book sits a small spectral familiar made of glowing circuit-like lines (rendered in the same ink style, no color) — a magical creature representing an AI companion. Through a window behind the desk, a flying cauldron drifts among the clouds. Candlelight, dramatic ink shadows, no color, square composition.

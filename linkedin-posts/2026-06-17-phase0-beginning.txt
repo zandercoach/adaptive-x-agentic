@@ -1,0 +1,22 @@
+LINKEDIN POST
+=============
+
+Agentic engineering as an RPG adventure - The beginning
+
+15 years ago I hung up my developer and Software architect hat to become a Scrum Master, Business Coach, and Certified Scrum Trainer (CST) with the Scrum Alliance. The code skills went quiet, but the curiosity never did. Today I sat in on Henrik Kniberg's webinar on "#AgenticEngineering", and it pushed me to finally turn curiosity into practice instead of just nodding along.
+
+So - full disclosure - this is not a "here's how you do it" post. I'm not an expert dispensing tips. This is a genuine learning report: what I tried, what broke, what I got wrong, written as I go.
+
+The vehicle is something with stakes I actually care about: "Die Chroniken des fliegenden Kessels" (The Chronicles of the Flying Cauldron) — a static site builder I built years ago to chronicle our pen-and-paper #RPG campaigns (using plain old Java, XML, Velocity templates, the works). Old, a little fragile, mine. And we're still going on adventures. So, perfect material to learn on.
+
+Last session was Phase 0: get the basics right before touching anything clever. I split the project into a public engine repo and a private content repo (the RPG content contains images that aren't mine to redistribute (yet)), got my Java/Maven toolchain running again, and - working alongside Claude Code - found and fixed two real bugs in the site generator that had been quietly broken for who knows how long. Not hypothetical fixes: build it, run it, compare the output, then trust it.
+
+That turned out to be the real lesson: an agent that reasons confidently isn't the same as one that's right. Verifying empirically beat reasoning theoretically — twice, in the same session.
+
+I'll keep posting as I go, warts included. Each post in this series gets its own illustration, in a consistent black-and-white ink style, marking the next chapter of the chronicle. Here's the first one: the beginning of the journey.
+
+And there's more on my list (subject to change 😄): 
+👉 updating and upgrading the current codebase, using modern tools, creating an automated build-and-deploy pipeline (open source), creating a safety net with automated tests on necessary levels, switching to #TDD adding code quality tools
+👉 adding a user-friendly, mobile first web interface to add and modify data so that I can add RPG chronicle events as we continue our journey
+👉 adding agents to step-by-step automate the requirements engineering, the development, and the metrics and quality steps, along with creating LinkedIn posts
+👉 I don't know yet - there's unknown-unkowns in this journey, too 😄 

@@ -1,0 +1,10 @@
+IMAGE STYLE GUIDE ("Kessel Chronicle Ink" — reuse for every future post)
+=========================================================================
+
+Black-and-white pen-and-ink illustration, fantasy RPG chronicle/bestiary tome style. High-contrast linework, dense crosshatching for shadow and texture, pure ink on aged parchment — no color, no grayscale gradients. Hand-drawn imperfection, not vector-clean. Square composition with a thin decorative border, like a page from an old adventurer's chronicle.
+
+
+IMAGE PROMPT ("building the safety net")
+==========================================
+
+Black-and-white pen-and-ink woodcut illustration, fantasy RPG chronicle tome style, heavy crosshatching, aged parchment texture, decorative border. A hooded scribe stands over a large leather-bound book on a wooden desk, weaving a glowing net of fine protective runes over its open pages, the threads rendered as delicate interlocking ink lines. Caught within the net is a small mischievous imp, representing a hidden flaw now exposed. Perched at the edge of the desk, the spectral familiar made of glowing circuit-like lines (the same one from the first illustration) holds up a tiny lantern, watching the net take shape. Candlelight, dramatic ink shadows, no color, square composition.

@@ -1,0 +1,18 @@
+LINKEDIN POST
+=============
+
+Agentic engineering as an RPG adventure - The safety net
+
+15 years ago I hung up my developer and software architect hat to become a Scrum Master, Agile Coach, and Certified Scrum Trainer (CST) with the @Scrum Alliance. The code skills went quiet, but the curiosity never did. A webinar by @Henrik Kniberg on #AgenticEngineering pushed me to finally turn that curiosity into practice.
+
+Full disclosure, still: this is not a "here's how you do it" post. It's a learning report — what I tried, what broke, what I got wrong.
+
+The vehicle: "Die Chroniken des fliegenden Kessels" (The Chronicles of the Flying Cauldron) — a static site builder I wrote years ago to chronicle our pen-and-paper RPG campaigns. Old, a little fragile, mine.
+
+Last session was about building a safety net before touching anything risky: a Maven Wrapper, so the build no longer depends on a Maven install that only exists on my machine, and a first batch of tests pinned to how the generator actually behaves today (not how I assume it behaves).
+
+The interesting part: writing those tests didn't just protect the future — it immediately paid off in the present. One test kept failing for a reason that had nothing to do with my assertions: a file writer in the generator was never being closed, quietly leaking file handles. A real bug, just sitting there, surfaced the moment I made the code's behavior observable. Fixed it, reran the full generator against the real data, and compared the output counts to the last known-good baseline before trusting it.
+
+Same lesson as last time, applied to a different kind of change: verifying beats assuming, every time — whether you're fixing a bug or hardening the safety net meant to catch the next one.
+
+Next up: modernizing the dependency stack. More to come, warts included.
